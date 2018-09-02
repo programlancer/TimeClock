@@ -1,0 +1,50 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Programlancer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShopConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=|DataDirectory|\Shop.sdf&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Microsoft.SqlServerCe.Client.3.5&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=|DataDirectory|\Shop.sdf</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hebrew</Value>
+    </Setting>
+    <Setting Name="CultureInfo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">he-IL</Value>
+    </Setting>
+    <Setting Name="PasswordRequiredEnterExit" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SendBackUpByEMail" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SendBackUpToEMail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">programlancer@gmail.com</Value>
+    </Setting>
+    <Setting Name="SendEMailFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">haim.aharon@gmail.com</Value>
+    </Setting>
+    <Setting Name="UsersAs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Radio</Value>
+    </Setting>
+    <Setting Name="FormLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A</Value>
+    </Setting>
+    <Setting Name="TextMessagesFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TimeClock.txt</Value>
+    </Setting>
+    <Setting Name="SMTPserver" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.012.net.il</Value>
+    </Setting>
+    <Setting Name="SMTPuser" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SMTPpassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

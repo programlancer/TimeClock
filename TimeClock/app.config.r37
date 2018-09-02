@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="TimeClock.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+            <section name="ShopBoardForm.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="ShopBoardForm.Properties.Settings.ShopConnectionString"
+            connectionString="Data Source=|DataDirectory|\Shop.sdf" providerName="Microsoft.SqlServerCe.Client.3.5" />
+        <add name="TimeClock.Properties.Settings.ShopConnectionString"
+            connectionString="Data Source=|DataDirectory|\Shop.sdf" providerName="Microsoft.SqlServerCe.Client.3.5" />
+    </connectionStrings>
+    <userSettings>
+        <TimeClock.Properties.Settings>
+            <setting name="Language" serializeAs="String">
+                <value>Hebrew</value>
+            </setting>
+            <setting name="CultureInfo" serializeAs="String">
+                <value>he-IL</value>
+            </setting>
+            <setting name="PasswordRequiredEnterExit" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SendBackUpByEMail" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SendBackUpToEMail" serializeAs="String">
+                <value>programlancer@gmail.com</value>
+            </setting>
+        </TimeClock.Properties.Settings>
+        <ShopBoardForm.Properties.Settings>
+            <setting name="Language" serializeAs="String">
+                <value>Hebrew</value>
+            </setting>
+            <setting name="CultureInfo" serializeAs="String">
+                <value>he-IL</value>
+            </setting>
+        </ShopBoardForm.Properties.Settings>
+    </userSettings>
+</configuration>

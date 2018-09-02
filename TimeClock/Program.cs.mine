@@ -1,0 +1,66 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+using System.Globalization;
+using System.Threading;
+using System.Resources;
+
+namespace TimeClock
+{
+    static class Program
+    {
+        internal static ResourceManager resourceManager;
+
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main(string[] args)
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            resourceManager = new ResourceManager("TimeClock.Timeclock", typeof(Program).Assembly);
+
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(Properties.Settings.Default.CultureInfo, false);
+
+            if (args.Length == 0)
+            {
+                Application.Run(new FormMain());
+            }
+            else
+            {
+                switch (args[0].ToUpper())
+                {
+                    case "ENTER":
+                        Application.Run(new FormEnterExit { Direction = "ENTER" });
+                        break;
+                    case "EXIT":
+                        Application.Run(new FormEnterExit { Direction = "EXIT" });
+                        break;
+                    case "REPORT":
+                        using (FormLogin formLogin = new FormLogin())
+                        {
+                            DialogResult dr = formLogin.ShowDialog();
+
+                            if (dr == DialogResult.OK)
+                            {
+                                Application.Run(new FormReport(formLogin.User));
+                            }
+                        }
+                        break;
+                    case "BACKUP":
+                        Library.BackUp();
+
+                        if (Properties.Settings.Default.SendBackUpByEMail) Library.SendEMail(Properties.Settings.Default.SendEMailFrom, Properties.Settings.Default.SendBackUpToEMail, "Backup data file", "Hello", "Shop.sdf");
+
+                        break;
+                    default:
+                        Application.Run(new FormMain());
+                        break;
+                }
+            }
+        }
+    }
+}
