@@ -1,42 +1,46 @@
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\bin\Debug\Shop.sdf
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\bin\Debug\Properties\Settings.Designer.cs
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\bin\Debug\Properties\Settings.settings
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\bin\Debug\TimeClock.exe.config
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\bin\Debug\TimeClock.exe
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\bin\Debug\TimeClock.pdb
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\bin\Debug\he-IL\TimeClock.resources.dll
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogUC.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormAdministrator.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormEnterExit.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogin.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormMain.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormMessage.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLog.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormReport.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormReportViewer.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormSettings.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormUsers.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.Properties.Resources.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.TimeClock.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogUC.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormAdministrator.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormEnterExit.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLog.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogin.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormMain.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormReport.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormReportViewer.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormSettings.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormUsers.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.TimeClock.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.csproj.GenerateResource.Cache
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\RdlCompile.cache
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\RdlCompile.compiled
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\he-IL\TimeClock.resources.dll
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.exe
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.pdb
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.Test.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.InOutControl.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormPassword.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormPassword.he-IL.resources
-C:\Users\Victor\Documents\Visual Studio 2010\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.csprojResolveAssemblyReference.cache
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Shop.sdf
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Properties\Settings.Designer.cs
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Properties\Settings.settings
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\TimeClock.exe.config
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\TimeClock.exe
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\TimeClock.pdb
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\he-IL\TimeClock.resources.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\CSharp.SqlServerCe.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\System.Data.SqlServerCe.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\CSharp.SqlServerCe.xml
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.csprojAssemblyReference.cache
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogUC.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormAdministrator.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormEnterExit.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogin.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormMain.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormMessage.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLog.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormReport.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormReportViewer.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormSettings.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormUsers.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.InOutControl.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormPassword.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.Properties.Resources.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.Test.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.TimeClock.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogUC.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormAdministrator.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormEnterExit.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLog.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogin.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormMain.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormPassword.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormReport.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormReportViewer.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormSettings.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormUsers.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.TimeClock.he-IL.resources
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.csproj.GenerateResource.cache
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.csproj.CoreCompileInputs.cache
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\he-IL\TimeClock.resources.dll
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.csproj.CopyComplete
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.exe
+C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.pdb

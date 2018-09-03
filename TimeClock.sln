@@ -1,8 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TimeClockInstaller", "TimeClockInstaller\TimeClockInstaller.vdproj", "{98534521-065C-40A0-B9AE-A60CB9727966}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeClock", "TimeClock\TimeClock.csproj", "{2B1183E9-53C6-4A99-BDD7-730D35D73F9E}"
 EndProject
 Global
@@ -13,13 +13,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{98534521-065C-40A0-B9AE-A60CB9727966}.Debug|x64.ActiveCfg = Debug
-		{98534521-065C-40A0-B9AE-A60CB9727966}.Debug|x64.Build.0 = Debug
-		{98534521-065C-40A0-B9AE-A60CB9727966}.Debug|x86.ActiveCfg = Debug
-		{98534521-065C-40A0-B9AE-A60CB9727966}.Release|x64.ActiveCfg = Release
-		{98534521-065C-40A0-B9AE-A60CB9727966}.Release|x64.Build.0 = Release
-		{98534521-065C-40A0-B9AE-A60CB9727966}.Release|x86.ActiveCfg = Release
-		{98534521-065C-40A0-B9AE-A60CB9727966}.Release|x86.Build.0 = Release
 		{2B1183E9-53C6-4A99-BDD7-730D35D73F9E}.Debug|x64.ActiveCfg = Debug|x86
 		{2B1183E9-53C6-4A99-BDD7-730D35D73F9E}.Debug|x64.Build.0 = Debug|x86
 		{2B1183E9-53C6-4A99-BDD7-730D35D73F9E}.Debug|x86.ActiveCfg = Debug|x86
@@ -31,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8A5A3EB-36FF-4D47-9812-0195FB7E231F}
 	EndGlobalSection
 EndGlobal
