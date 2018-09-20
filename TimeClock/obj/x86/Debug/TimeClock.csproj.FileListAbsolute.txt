@@ -9,7 +9,6 @@ C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\CSharp.SqlServerCe.dll
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Microsoft.ReportViewer.WinForms.dll
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\System.Data.SqlServerCe.dll
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\CSharp.SqlServerCe.xml
-C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.csprojAssemblyReference.cache
 C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormLogUC.resources
 C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormAdministrator.resources
 C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\Programlancer.FormEnterExit.resources
@@ -44,3 +43,13 @@ C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\he-IL\TimeClock.resource
 C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.csproj.CopyComplete
 C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.exe
 C:\Workspace\Projects\TimeClock\TimeClock\obj\x86\Debug\TimeClock.pdb
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.SqlServer.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.SqlServerCompact.Legacy.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.xml
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.SqlServer.xml
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.SqlServerCompact.Legacy.xml
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL

@@ -2,3 +2,48 @@
 2018/09/03 17:58:07 Application exited
 2018/09/03 19:25:56 Application started
 2018/09/03 19:26:18 Application exited
+2018/09/04 18:51:28 Application started
+2018/09/04 18:51:45 Application exited
+2018/09/04 18:53:41 Application started
+2018/09/04 19:01:52 Application started
+2018/09/04 19:02:01 Application exited
+2018/09/20 15:17:21 Application started
+2018/09/20 15:17:37 Application exited
+2018/09/20 16:06:58 Application started
+2018/09/20 16:15:52 Application exited
+2018/09/20 16:20:13 Application started
+2018/09/20 16:20:44 Application exited
+2018/09/20 16:30:47 Application started
+2018/09/20 16:31:09 Exception caught in SendEMail(): כשל בשליחת דואר.
+2018/09/20 16:31:17 Application exited
+2018/09/20 16:35:27 Application started
+2018/09/20 16:35:48 Exception caught in SendEMail(): כשל בשליחת דואר.
+2018/09/20 16:36:58 Application exited
+2018/09/20 16:38:36 Application started
+2018/09/20 16:39:46 Application exited
+2018/09/20 16:52:44 Application started
+2018/09/20 16:52:49 Application exited
+2018/09/20 16:53:53 Application started
+2018/09/20 16:54:01 Application exited
+2018/09/20 16:54:09 Application started
+2018/09/20 16:55:33 Application exited
+2018/09/20 16:58:11 Application started
+2018/09/20 16:58:38 Exception caught in SendEMail(): כשל בשליחת דואר.
+2018/09/20 16:59:11 Application exited
+2018/09/20 16:59:16 Application started
+2018/09/20 17:00:01 Exception caught in SendEMail(): כשל בשליחת דואר.
+2018/09/20 17:00:17 Application exited
+2018/09/20 17:00:21 Application started
+2018/09/20 17:00:42 Exception caught in SendEMail(): כשל בשליחת דואר.
+2018/09/20 17:02:09 Application started
+2018/09/20 17:02:31 Exception caught in SendEMail(): כשל בשליחת דואר.
+2018/09/20 17:02:43 Application exited
+2018/09/20 17:03:43 Application started
+2018/09/20 17:06:59 Application started
+2018/09/20 17:07:17 Application exited
+2018/09/20 17:08:03 Application started
+2018/09/20 17:08:28 Application exited
+2018/09/20 17:09:59 Application started
+2018/09/20 17:10:07 Application started
+2018/09/20 17:10:22 Application started
+2018/09/20 17:10:38 Application exited

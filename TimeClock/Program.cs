@@ -78,8 +78,14 @@ namespace Programlancer
                             if (dr == DialogResult.OK) pass = formPassword.Pass;
                         }
                     }
-
-                    user = User.Create(name, pass, true);
+                    try
+                    {
+                        user = User.Create(name, pass, true);
+                    }
+                    catch (System.Data.SqlServerCe.SqlCeException se)
+                    {
+                        Upgrade();
+                    }
                 }
                 #endregion
 
@@ -175,6 +181,9 @@ namespace Programlancer
                         Application.Run(new Test());
                         break;
 
+                    case "UPGRADE":
+                        Upgrade();
+                        break;
                     default:
                         Application.Run(new FormMain());
                         break;
@@ -183,6 +192,22 @@ namespace Programlancer
             }
 
             Library.WriteTextMessage("Application exited");
+        }
+
+        static void Upgrade()
+        {
+            //string message = Library.BackUp();
+            //MessageBox.Show(message, Program.resourceManager.GetString("strBackUp"));
+
+            DialogResult dr = MessageBox.Show("Do you agree to update the database?", "Upgrade Shop.sdf", MessageBoxButtons.YesNo, MessageBoxIcon.Hand, MessageBoxDefaultButton.Button2);
+
+            if (dr == DialogResult.Yes)
+            {
+                string message = Library.UpgradeDB();
+                MessageBox.Show(message, "Upgrade");
+            }
+
+            Environment.Exit(1);
         }
     }
 }

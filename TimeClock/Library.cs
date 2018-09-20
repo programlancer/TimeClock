@@ -243,6 +243,36 @@ namespace Programlancer
             return records;
         }
 
+        internal static string UpgradeDB()
+        {
+            string connStringCI = "Data Source= Shop.sdf; LCID= 1049";
+
+            // Set "Case Sensitive" to true to change the collation from CI to CS.
+            string connStringCS = "Data Source= Shop.sdf; LCID= 1049; Case Sensitive=true";
+
+            SqlCeEngine engine = new SqlCeEngine(connStringCI);
+
+            // The collation of the database will be case sensitive because of 
+            // the new connection string used by the Upgrade method.                
+            engine.Upgrade(connStringCS);
+
+            SqlCeConnection conn = null;
+            conn = new SqlCeConnection(connStringCI);
+            conn.Open();
+
+            //Retrieve the connection string information - notice the 'Case Sensitive' value.
+            List<KeyValuePair<string, string>> dbinfo = conn.GetDatabaseInfo();
+
+            Console.WriteLine("\nGetDatabaseInfo() results:");
+
+            foreach (KeyValuePair<string, string> kvp in dbinfo)
+            {
+                Console.WriteLine(kvp);
+            }
+
+            return "Shop.sdf has been upgraded to Ver. 4.0. Please rerun the program.";
+        }
+
         public static List<User> GetUsers(int user)
         {
             List<User> users = new List<User>();

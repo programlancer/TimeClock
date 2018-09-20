@@ -58,6 +58,10 @@ namespace Programlancer
                             , reader.IsDBNull(4) ? false : reader.GetBoolean(4));
                     }
                 }
+                catch (System.Data.SqlServerCe.SqlCeException se )
+                {
+                    throw se;
+                }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
