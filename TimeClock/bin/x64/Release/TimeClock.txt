@@ -1,0 +1,7 @@
+2018/09/25 18:15:45 Application started
+2018/09/25 18:18:11 Application started
+2018/09/25 18:18:21 Application started
+2018/09/25 18:18:57 Application exited
+2018/09/25 18:19:04 Application started
+2018/09/25 18:19:09 Application started
+2018/09/25 18:19:11 Application exited

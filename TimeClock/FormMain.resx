@@ -125,43 +125,40 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="toolStripMenuItemEnter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="toolStripMenuItemEnter.Text" xml:space="preserve">
     <value>Enter</value>
   </data>
   <data name="toolStripMenuItemExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="toolStripMenuItemExit.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>177, 6</value>
   </data>
   <data name="toolStripMenuItemReport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="toolStripMenuItemReport.Text" xml:space="preserve">
     <value>Report</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>177, 6</value>
   </data>
   <data name="administratorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="administratorToolStripMenuItem.Text" xml:space="preserve">
     <value>Administrator</value>
   </data>
-  <data name="exitProgramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="exitProgramToolStripMenuItem.Text" xml:space="preserve">
-    <value>Exit Program</value>
+  <data name="administratorToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Use Shift for enter User name in Login form</value>
   </data>
   <data name="contextMenuStripApp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 126</value>
+    <value>181, 126</value>
   </data>
   <data name="&gt;&gt;contextMenuStripApp.Name" xml:space="preserve">
     <value>contextMenuStripApp</value>
@@ -327,12 +324,6 @@
     <value>administratorToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;administratorToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;exitProgramToolStripMenuItem.Name" xml:space="preserve">
-    <value>exitProgramToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;exitProgramToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

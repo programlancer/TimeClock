@@ -1,4 +1,3 @@
-C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Shop.sdf
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Properties\Settings.Designer.cs
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Properties\Settings.settings
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\TimeClock.exe.config
@@ -53,3 +52,4 @@ C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.SqlServerCom
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\EntityFramework.SqlServerCompact.Legacy.xml
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Workspace\Projects\TimeClock\TimeClock\bin\Debug\Shop.sdf

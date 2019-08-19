@@ -37,11 +37,13 @@ namespace Programlancer
             using (SqlCeConnection con = new SqlCeConnection(global::Programlancer.Properties.Settings.Default.ShopConnectionString))
             {
                 SqlCeCommand com = new SqlCeCommand(command, con);
-                com.Parameters.Add("login", login);
+                com.Parameters.AddWithValue("login", login);
+                //com.Parameters.Add("login", login);
 
                 if (passwordRequired)
                 {
-                    com.Parameters.Add("password", password);
+                    com.Parameters.AddWithValue("password", password);
+                    //com.Parameters.Add("password", password);
                 }
 
                 try
@@ -58,9 +60,10 @@ namespace Programlancer
                             , reader.IsDBNull(4) ? false : reader.GetBoolean(4));
                     }
                 }
-                catch (System.Data.SqlServerCe.SqlCeException se )
+                catch (System.Data.SqlServerCe.SqlCeException se)
                 {
-                    throw se;
+                    MessageBox.Show("Perhaps you need to update the database. Use the UPDATE parameter. Bye!");
+                    Environment.Exit(1);
                 }
                 catch (Exception ex)
                 {
@@ -114,10 +117,15 @@ namespace Programlancer
             {
                 SqlCeCommand com = new SqlCeCommand(command, con);
 
-                com.Parameters.Add("id", this.Id);
-                com.Parameters.Add("year", DateTime.Now.Year);
-                com.Parameters.Add("month", DateTime.Now.Month);
-                com.Parameters.Add("day", DateTime.Now.Day);
+                com.Parameters.AddWithValue("id", this.Id);
+                com.Parameters.AddWithValue("year", DateTime.Now.Year);
+                com.Parameters.AddWithValue("month", DateTime.Now.Month);
+                com.Parameters.AddWithValue("day", DateTime.Now.Day);
+
+                //com.Parameters.Add("id", this.Id);
+                //com.Parameters.Add("year", DateTime.Now.Year);
+                //com.Parameters.Add("month", DateTime.Now.Month);
+                //com.Parameters.Add("day", DateTime.Now.Day);
 
                 try
                 {

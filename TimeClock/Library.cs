@@ -69,9 +69,13 @@ namespace Programlancer
             using (SqlCeConnection con = new SqlCeConnection(global::Programlancer.Properties.Settings.Default.ShopConnectionString))
             {
                 SqlCeCommand com = new SqlCeCommand(command, con);
-                com.Parameters.Add("id", userId);
-                com.Parameters.Add("when", DateTime.Now);
-                com.Parameters.Add("what", what);
+                com.Parameters.AddWithValue("id", userId);
+                com.Parameters.AddWithValue("when", DateTime.Now);
+                com.Parameters.AddWithValue("what", what);
+
+                //com.Parameters.Add("id", userId);
+                //com.Parameters.Add("when", DateTime.Now);
+                //com.Parameters.Add("what", what);
 
                 try
                 {
@@ -187,10 +191,15 @@ namespace Programlancer
             {
                 SqlCeCommand com = new SqlCeCommand(command, con);
 
-                com.Parameters.Add("id", user);
-                com.Parameters.Add("year", date.Year);
-                com.Parameters.Add("month", date.Month);
-                com.Parameters.Add("day", date.Day);
+                com.Parameters.AddWithValue("id", user);
+                com.Parameters.AddWithValue("year", date.Year);
+                com.Parameters.AddWithValue("month", date.Month);
+                com.Parameters.AddWithValue("day", date.Day);
+
+                //com.Parameters.Add("id", user);
+                //com.Parameters.Add("year", date.Year);
+                //com.Parameters.Add("month", date.Month);
+                //com.Parameters.Add("day", date.Day);
 
                 try
                 {
@@ -285,7 +294,8 @@ namespace Programlancer
             {
                 SqlCeCommand com = new SqlCeCommand(command, con);
 
-                if (user != 0) com.Parameters.Add("id", user);
+                if (user != 0)
+                    com.Parameters.AddWithValue("id", user);//com.Parameters.Add("id", user);
 
                 try
                 {

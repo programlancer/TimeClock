@@ -39,7 +39,7 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.administratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labelNow = new System.Windows.Forms.Label();
-            this.dataGridViewToday = new System.Windows.Forms.DataGridView();            
+            this.dataGridViewToday = new System.Windows.Forms.DataGridView();
             this.contextMenuStripApp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewToday)).BeginInit();
             this.SuspendLayout();
@@ -108,7 +108,7 @@
             resources.ApplyResources(this.dataGridViewToday, "dataGridViewToday");
             this.dataGridViewToday.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewToday.Name = "dataGridViewToday";
-            this.dataGridViewToday.ReadOnly = true;            
+            this.dataGridViewToday.ReadOnly = true;
             // 
             // FormMain
             // 

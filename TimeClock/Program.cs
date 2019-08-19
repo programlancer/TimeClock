@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using System.Globalization;
 using System.Threading;
 using System.Resources;
+using System.Diagnostics;
 
 namespace Programlancer
 {
@@ -35,9 +36,11 @@ namespace Programlancer
 
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(Properties.Settings.Default.CultureInfo, false);
 
+            bool runFormMain = false;
+
             if (args.Length == 0)
             {
-                Application.Run(new FormMain());
+                runFormMain = true;
             }
             else
             {
@@ -84,7 +87,8 @@ namespace Programlancer
                     }
                     catch (System.Data.SqlServerCe.SqlCeException se)
                     {
-                        Upgrade();
+                        MessageBox.Show("Perhaps you need to update the database. Use the UPDATE parameter. Bye!");
+                        Environment.Exit(1);
                     }
                 }
                 #endregion
@@ -164,6 +168,7 @@ namespace Programlancer
                     case "?":
                         string msg = "timeclock [Action[ User[ Password]]]" +
                             "\nActions:" +
+                            "\nNo action: stays in tray" +
                             "\n\t?\tthis help" +
                             "\n\tENTER\tרישום כניסה למערכת" +
                             "\n\tEXIT\tרישום יציאה ממערכת" +
@@ -171,6 +176,7 @@ namespace Programlancer
                             "\n\tBACKUP" +
                             "\n\tRESTORE\tin development" +
                             "\n\tADMIN" +
+                            "\n\tUPGRADE" +
                             "\n\tPlease do not send an administrator password in command line!";
 
                         Console.Write(msg);
@@ -185,10 +191,26 @@ namespace Programlancer
                         Upgrade();
                         break;
                     default:
-                        Application.Run(new FormMain());
+                        runFormMain = true;
                         break;
                 }
                 #endregion
+            }
+
+            if (runFormMain)
+            {
+                string procName = Process.GetCurrentProcess().ProcessName;
+
+                Process[] processes = Process.GetProcessesByName(procName);
+
+                if (processes.Length > 1)
+                {
+                    MessageBox.Show(procName + " already running");
+                }
+                else
+                {
+                    Application.Run(new FormMain());
+                }
             }
 
             Library.WriteTextMessage("Application exited");
@@ -196,12 +218,16 @@ namespace Programlancer
 
         static void Upgrade()
         {
-            //string message = Library.BackUp();
-            //MessageBox.Show(message, Program.resourceManager.GetString("strBackUp"));
+            DialogResult dr1 = MessageBox.Show("Do you want to backup the database?", "Backup Shop.sdf", MessageBoxButtons.YesNo, MessageBoxIcon.Hand, MessageBoxDefaultButton.Button2);
+            if (dr1 == DialogResult.Yes)
+            {
+                string message = Library.BackUp();
+                MessageBox.Show(message, Program.resourceManager.GetString("strBackUp"));
+            }
 
-            DialogResult dr = MessageBox.Show("Do you agree to update the database?", "Upgrade Shop.sdf", MessageBoxButtons.YesNo, MessageBoxIcon.Hand, MessageBoxDefaultButton.Button2);
+            DialogResult dr2 = MessageBox.Show("Do you agree to update the database?", "Upgrade Shop.sdf", MessageBoxButtons.YesNo, MessageBoxIcon.Hand, MessageBoxDefaultButton.Button2);
 
-            if (dr == DialogResult.Yes)
+            if (dr2 == DialogResult.Yes)
             {
                 string message = Library.UpgradeDB();
                 MessageBox.Show(message, "Upgrade");
